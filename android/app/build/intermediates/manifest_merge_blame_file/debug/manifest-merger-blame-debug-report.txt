@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spaceag"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:9:5-77
+11-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:9:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:4:5-66
+12-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:6:5-79
+14-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:7:5-80
+15-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:8:5-70
+16-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:10:5-78
+17-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:11:5-80
+18-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.37.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.37.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:22-73
+20
+21    <uses-feature
+21-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+26        android:required="false" /> <!-- Required to access Google Play Licensing -->
+26-->[:react-native-camera] E:\CodeAble\spaceag\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+27    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+27-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+27-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+28    <!--
+29         Required to keep CPU alive while downloading files
+30        (NOT to keep screen awake)
+31    -->
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-68
+32-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-65
+33    <!--
+34         Required to poll the state of the network connection
+35        and respond to changes
+36    -->
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-79
+37-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-76
+38
+39    <uses-feature
+39-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+40        android:glEsVersion="0x00020000"
+40-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+41        android:required="true" />
+41-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+42
+43    <application
+43-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:12:5-35:19
+44        android:name="com.spaceag.MainApplication"
+44-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:13:13-44
+45        android:allowBackup="false"
+45-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:17:13-40
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.1.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:15:13-47
+49        android:label="@string/app_name"
+49-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:14:13-45
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:16:13-58
+51        android:theme="@style/AppTheme"
+51-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:18:13-44
+52        android:usesCleartextTraffic="true" >
+52-->E:\CodeAble\spaceag\android\app\src\debug\AndroidManifest.xml:7:18-53
+53        <meta-data
+53-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:19:9-21:74
+54            android:name="com.google.android.geo.API_KEY"
+54-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:20:17-62
+55            android:value="AIzaSyBu5U2PXHAZrwflpRUBl6inv2B-50243U0" />
+55-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:21:17-72
+56
+57        <uses-library
+57-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:22:9-87
+58            android:name="org.apache.http.legacy"
+58-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:22:23-60
+59            android:required="false" />
+59-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:22:61-85
+60
+61        <activity
+61-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:23:9-33:20
+62            android:name="com.spaceag.MainActivity"
+62-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:24:17-45
+63            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+63-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:26:17-94
+64            android:label="@string/app_name"
+64-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:25:17-49
+65            android:launchMode="singleTask"
+65-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:27:17-48
+66            android:windowSoftInputMode="adjustResize" >
+66-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:28:17-59
+67            <intent-filter>
+67-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:29:13-32:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:30:17-68
+68-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:30:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:31:17-76
+70-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:31:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+73-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:34:9-85
+73-->E:\CodeAble\spaceag\android\app\src\main\AndroidManifest.xml:34:19-83
+74
+75        <provider
+75-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-44:20
+76            android:name="com.RNFetchBlob.Utils.FileProvider"
+76-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+77            android:authorities="com.spaceag.provider"
+77-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-60
+78            android:exported="false"
+78-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+79            android:grantUriPermissions="true" >
+79-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+80            <meta-data
+80-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43:58
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:17-67
+82                android:resource="@xml/provider_paths" />
+82-->[:rn-fetch-blob] E:\CodeAble\spaceag\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-55
+83        </provider>
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\867dca39041f954535eb8ea4712c8b86\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\867dca39041f954535eb8ea4712c8b86\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wilbe\.gradle\caches\transforms-2\files-2.1\867dca39041f954535eb8ea4712c8b86\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+93    </application>
+94
+95</manifest>
